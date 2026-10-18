@@ -20,6 +20,8 @@ elif (day == "Saturday" or day == "Sunday"):
     elif (day_time == "afternoon"):
         print ("Time for your favorite activity!")
     elif (day_time == "evening"):
-        print ("Perfect night for a movie or trying a new recipe.")   
+        print ("Perfect night for a movie or trying a new recipe.")  
+if day_time != "morning" or day_time != "afternoon" or day_time !="evening":
+    print ("Sorry, I don't recognize that time of day.")        
 else:
     print ("Sorry, I don't recognize that day. Try: Monday, Tuesday, Wednesday...")
