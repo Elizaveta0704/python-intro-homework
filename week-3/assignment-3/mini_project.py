@@ -1,7 +1,5 @@
 day = input ("What day is today? ") .capitalize()
 day_time = input ("What time of the day? ") .lower ()
-if day_time != "morning" and day_time != "afternoon" and day_time !="evening":
-        print ("Sorry, I don't recognize that time of day.")        
 if (day == "Monday" or day == "Wednesday" or day == "Friday"):
     if day_time == "morning":
         print("Morning Python class — great time to focus!")       
@@ -25,3 +23,5 @@ elif (day == "Saturday" or day == "Sunday"):
         print ("Perfect night for a movie or trying a new recipe.")  
 else:
     print ("Sorry, I don't recognize that day. Try: Monday, Tuesday, Wednesday...")
+if day_time != "morning" and day_time != "afternoon" and day_time !="evening":
+        print ("Sorry, I don't recognize that time of day.")        
