@@ -6,5 +6,5 @@ elif age >= 13 and age <= 17:
 elif age >= 18 and age <= 64:
     print ("You are an Adult")
 elif age >= 65:
-    print ("You are Senior")    
+    print ("You are a Senior")    
   

@@ -3,7 +3,7 @@ if number < 0:
     print (f"{number} is negative.")
 elif number > 0:
     print (f"{number} is positive.")   
-elif number == 0:
+else:
     print ("0 is zero")
 if number % 2 == 0:
     print (f"{number} is even")
