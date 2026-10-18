@@ -7,13 +7,17 @@ if (day == "Monday" or day == "Wednesday" or day == "Friday"):
         print("Time for lunch!")
     elif (day_time == "evening"):   
         print ("Time to rest")
+    else:
+        print ("Sorry, I don't recognize that part of the day")   
 elif (day == "Tuesday" or day == "Thursday"):
     if day_time == "morning":
          print("Go to the gym")    
     elif (day_time == "afternoon"):
          print ("Meet with friend")
     elif (day_time == "evening"): 
-         print ("Do yoga class")         
+         print ("Do yoga class") 
+    else:
+         print ("Sorry, I don't recognize that part of the day")              
 elif (day == "Saturday" or day == "Sunday"):
     if (day_time == "morning"):
         print ("Family time!")
@@ -21,6 +25,7 @@ elif (day == "Saturday" or day == "Sunday"):
         print ("Time for your favorite activity!")
     elif (day_time == "evening"):
         print ("Perfect night for a movie or trying a new recipe.")
+    else:
+        print ("Sorry, I don't recognize that part of the day")    
 else: 
-    day_time != "morning" and day_time != "afternoon" and day_time !="evening"
     print ("Sorry, I don't recognize that day. Try: Monday, Tuesday, Wednesday...")
