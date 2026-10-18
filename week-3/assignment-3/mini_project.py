@@ -7,14 +7,14 @@ if (day == "Monday" or day == "Wednesday" or day == "Friday"):
         print("Time for lunch!")
     elif (day_time == "evening"):   
         print ("Time to rest")
-if (day == "Tuesday" or day == "Thursday"):
+elif (day == "Tuesday" or day == "Thursday"):
     if day_time == "morning":
          print("Go to the gym")    
     elif (day_time == "afternoon"):
          print ("Meet with friend")
     elif (day_time == "evening"): 
          print ("Do yoga class")         
-if (day == "Saturday" or day == "Sunday"):
+elif (day == "Saturday" or day == "Sunday"):
     if (day_time == "morning"):
         print ("Family time!")
     elif (day_time == "afternoon"):
