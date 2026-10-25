@@ -3,5 +3,7 @@ student = {
     'grade': 5, 
     'subjects': ['Math', 'Science', 'Phisics', 'Art']
 }
-for item in student:
-    print(list(student.items())) 
+student ['graduated'] = 'False'
+print (student)
+for key, value in student.items():
+    print(student)
