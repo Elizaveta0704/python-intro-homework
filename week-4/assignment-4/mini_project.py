@@ -14,7 +14,7 @@ for student in students:
     if student["score"] > highest_score:
        highest_score = student ['score']
        top_scorer = student ["name"] 
-print(top_scorer)
+print(f"{top_scorer} ({highest_score})")
 
 total = 0
 for student in students:
