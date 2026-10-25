@@ -1,7 +1,3 @@
-# and the name that goes with it. Do not use Python's built-in max() on the list directly.
-# Calculate the class average — accumulate the total score in a loop, then divide.
-# List all unique subjects — use a set to collect subjects as you loop, then print them.
-# List high scorers — use a loop and .append() to get the names of all students who scored above 75.
 students = [
     {"name": "Jazmine", "score": 88, "subject": "Python"},
     {"name": "Luis",    "score": 74, "subject": "Data"},
@@ -12,16 +8,25 @@ students = [
     {"name": "Mia",     "score": 83, "subject": "Web"},
     {"name": "Eli",     "score": 79, "subject": "Data"},
 ]
-top_scorer = []
+highest_score = 0
+top_scorer = ''
 for student in students:
-     if student["score"] >= 95:
-        top_scorer.append(student["name"]), 
+    if student["score"] > highest_score:
+       highest_score = student ['score']
+       top_scorer = student ["name"] 
 print(top_scorer)
+
 total = 0
 for student in students:
     total += student["score"]
 average = total / len(students)
 print(f"Class average: {average}")
+
+subjects = set()
+for student in students:
+    subjects.add(student["subject"])
+print (subjects)
+
 high_scorers = []
 for student in students:
      if student["score"] >= 75:
