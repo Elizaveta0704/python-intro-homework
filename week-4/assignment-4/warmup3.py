@@ -1,8 +1,8 @@
 language_1 = ['Python', 'JavaScript', 'Java', 'C++']
 language_2 = ['Python', 'JavaScript', 'Ruby', 'Swif']
 
-set_1 = {'Python', 'JavaScript', 'Java', 'C++'}
-set_2 = {'Python', 'JavaScript', 'Ruby', 'Swif'}
-print (set_1.union(set_2))
-print (set_1.intersection(set_2))
-print (set_1.difference(set_2))
+set_language1 = {'Python', 'JavaScript', 'Java', 'C++'}
+set_language2 = {'Python', 'JavaScript', 'Ruby', 'Swif'}
+print (set_language1.union(set_language2))
+print (set_language1.intersection(set_language2))
+print (set_language1.difference(set_language2))
