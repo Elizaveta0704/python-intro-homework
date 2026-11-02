@@ -45,7 +45,7 @@ while True:
         else:
             print(f"{target} not in the list.")
 
-    if x == 4:            
+    elif x == 4:            
         print(bubble_sort(numbers))
     elif x == 5:
         print ("Good bye!")   
