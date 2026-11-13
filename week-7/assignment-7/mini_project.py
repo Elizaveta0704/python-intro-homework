@@ -2,7 +2,10 @@ import os
 import csv
 from datetime import datetime
 if os.path.exists("../data/expenses.csv"):
-    with open('../data/expenses.csv', 'r') as file:
+     print("expenses.csv found.")
+else:
+    print("expenses.csv not found.")
+with open('../data/expenses.csv', 'r') as file:
         reader = csv.DictReader(file)    
         foods = []
         total = 0
